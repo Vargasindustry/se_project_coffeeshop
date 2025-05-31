@@ -148,17 +148,20 @@
     font-weight: 500;
     font-size:20px;
     line-height:30px;
-   
     
 }
 
 .recipes__video-caption { 
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     
 }
 
 .iframes__recipes{
-    border: none;
-        
+    border:none;
+    width: 560px;
+    height: 315px;
+    
 }
+
+
