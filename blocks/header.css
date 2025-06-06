@@ -8,6 +8,7 @@
     height: 800px;
     display: flex;
     flex-direction: column;
+    z-index: 1;
 
 }
 
@@ -27,6 +28,7 @@
     font-family: "Noto Serif", "Times New Roman", serif;
     font-style: italic;  
     color: #3F96F3;
+    font-weight: normal;
     
 }
 
@@ -46,6 +48,7 @@
     right: 5px;
     width: 646px;
     height:568px;
+    z-index: -1;
 
 }
 

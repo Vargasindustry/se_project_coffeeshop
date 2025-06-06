@@ -12,6 +12,8 @@
     justify-content: center;
     gap: 40px;
     list-style-type: none;
+    margin:0;
+    padding:0;
 }
 .recipes__title {
     margin: 0 0 24px;
@@ -31,6 +33,9 @@
  .recipes__video-caption{
     display:flex;
     justify-content: space-between;
+    font-weight:normal;
+    font-size: 20px;
+    line-height: 30px;
  }
 .recipes__video-item {
     width:480px;

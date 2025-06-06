@@ -16,6 +16,8 @@
     border: 1px solid #838383;
     border-radius: 4px;
     color: #000; 
+    font-size: 20px;
+    line-height: 30px;
 }
 
 .form__button{
@@ -37,8 +39,6 @@
 .form__button:hover{
     background-color: #3F96F3;
     cursor: pointer;
-    opacity: 0.7;
-    
 }
 
 .form__checkbox {
@@ -55,7 +55,7 @@
 
 }
 
-.label.form__label label.form__label_type_checkbox {
+.form__label .form__label_type_checkbox {
     font-family: "Inter", "Arial", sans-serif;
     font-weight: 500;
     font-size: 16px;
